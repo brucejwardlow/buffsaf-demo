@@ -29,10 +29,10 @@ st.markdown(
     ### Want to learn more?
 
     - Read the documentation: [Documentation](https://github.com/brucejwardlow/BuffSAF/blob/main/README.md)
-    - Download a Template CSV: [Example CSV](https://github.com/brucejwardlow/BuffSAF/blob/Example-content/metadata.csv)
+    - Download a Template CSV: [Example CSV](https://github.com/brucejwardlow/buffsaf-lite/blob/main/metadata.csv)
     - Download the example files:     
-        - [Mother and Child](https://github.com/brucejwardlow/BuffSAF/blob/Example-content/mother-and-child.jpeg)  
-        - [Buffalo Grazing in Meadow](https://github.com/brucejwardlow/BuffSAF/blob/Example-content/buffalo-grazing-in-meadow.jpeg)
+        - [Mother and Child](https://github.com/brucejwardlow/buffsaf-lite/blob/main/mother-and-child.jpeg)  
+        - [Buffalo Grazing in Meadow](https://github.com/brucejwardlow/buffsaf-lite/blob/main/buffalo-grazing-in-meadow.jpeg)
 
     """
 )
