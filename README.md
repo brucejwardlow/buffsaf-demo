@@ -15,6 +15,8 @@ The Demo version is a simplified version of the program to make running the prog
 : This is the one file needed to run the unstable version without a python environment. 
 - [buffsaf-demo.py](https://github.com/brucejwardlow/buffsaf-demo/blob/main/buffsaf-demo.py)
 : This is the one file needed to  run this program in a python environment.
+- [Documentation]()
+: This is the additional documentation on how to install and use the script.
 - [metadata.csv](https://github.com/brucejwardlow/buffsaf-demo/blob/main/metadata.csv)
 : The example metadata.csv.
 - [mother-and-child.jpeg](https://github.com/brucejwardlow/buffsaf-demo/blob/main/mother-and-child.jpeg)
@@ -28,14 +30,14 @@ The Demo version is a simplified version of the program to make running the prog
 
 The HTML version of BuffSAF Demo is intended for use in justifications of getting a Python environment installed. With care, I've gotten it stable up to batches of 375 mb. 
 
-This verion uses pyodide and [stlite](https://github.com/whitphx/stlite) to run fully in a client-side browser. 
+This verion uses [pyodide](https://github.com/pyodide/pyodide) and [stlite](https://github.com/whitphx/stlite) to run fully in a client-side browser. 
 
 To run this version: 
 
 1. Click on BuffSAF-Demo.html
 2. Click on the download icon in the top right corner.
 3. Double click the .html file to run the program.
-4. See additional documentation for instructions on how to use the program.
+4. See [additional documentation]() for instructions on how to use the program.
 
 ### Python Version - Simplified Version
 
@@ -46,10 +48,11 @@ There is a version with more features available at [BuffSAF](https://github.com/
 To run this version: 
 
 1. Install a python environment. (I recommend [Anaconda](https://www.anaconda.com/))
-
-open anaconda prompt
-
-`pip install pandas` 
-`pip install streamlit` 
-
-`streamlit run buffsaf-demo.py`
+2. Open anaconda prompt.
+3. Install pandas:
+    `pip install pandas`
+4. Install streamlit:    
+    `pip install streamlit` 
+5. Run the script:
+    `streamlit run buffsaf-demo.py`
+6. See [additional documentation]() for instructions on how to use the program.
