@@ -6,19 +6,19 @@ The Demo version is a simplified version of the program to make running the prog
 
 ## Contents of this repository
 - LICENSE
-    -
+    - MIT License information
 - README.md
-    -
+    - The README that you are currently reading.
 - buffalo-grazing-in-meadow.jpeg
-    -
+    - One of the example images for the example metadata.csv.
 - buffsaf-demo.html
-    -
+    - This is the one file needed to run the unstable version without a python environment. 
 - buffsaf-demo.py
-    -
+    - This is the one file needed to  run this program in a python environment.
 - metadata.csv
-    -
+    - The example metadata.csv.
 - mother-and-child.jpeg
-    -
+    - One of the example images for the example metadata.csv.
 
 
 
