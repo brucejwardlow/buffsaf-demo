@@ -423,10 +423,10 @@ def metadatavalidation():
     if st.session_state['criticalerrortoggle']==False: 
         with errors.container():
             with st.expander('Validation details'):
-                headervalidation() #headervalidation hopefully works
-                filenotfound() #needs to be updated when temp file implemented
-                blankvalidation() #this is broke, it shows blank columns Id ont know if this is an old comment
-                datevalidation() #this needs to be conditional to the existence of the column
+                headervalidation() 
+                filenotfound() 
+                blankvalidation() 
+                datevalidation()
                 extrafiles()
             subjectwarning() #this warns if the subject separators are wrong. 
 
