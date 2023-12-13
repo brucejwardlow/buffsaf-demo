@@ -1,6 +1,6 @@
 # Welcome to BuffSAF-Demo
 
-BuffSAF is a python-based Simple Archive Format compiler meant to create bulk upload files for a D-Space Repository.
+[BuffSAF](https://github.com/brucejwardlow/BuffSAF) is a python-based Simple Archive Format compiler meant to create bulk upload files for a D-Space Repository.
 
 The Demo version is a simplified version of the program to make running the program easier for a novice. 
 
