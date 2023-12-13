@@ -309,11 +309,6 @@ def run(row):
 
 #This is a copy of the import functions
 
-
-#import altair as alt
-#from io import StringIO
-#from urllib.error import URLError
-
 #Start session error log
 
 def upload():
@@ -350,51 +345,39 @@ def upload():
 
     outputname = st.text_input('(3) What name do you want the output to use?', 'Output') 
     st.session_state['output_name'] = outputname
-    if st.session_state['output_name']== '':
-        with errors.container():
-            st.error('The output name is currently undefined. This will break the program')
-    else:    
-        st.write('Your output name will be', st.session_state['output_name'],'.zip')
+             
+    st.write('Your output name will be', st.session_state['output_name'],'.zip')
     
-    if st.session_state['fileerrortoggle']==True:
-        with errors.container():
-            st.error('Please select the metadata csv and all files to continue.')
+            
+def uploaderrors():
+    
+    if st.session_state['output_name'] =='':
+        st.error('The output name is currently undefined. This will break the program.')  
+
+                
+    if st.session_state['uploaded_file'] == None or st.session_state['uploaded_files'] == []:
+        if st.session_state['previouserror']==True:        
+            st.error('Please select the metadata csv and all files to continue.') 
+
 
 def validationbutton():
     
-    validationbuttonlist=[]
-
-    if st.session_state['output_name'] =='':
-        validationbuttonlist.append('Fail') 
-    
-    if st.session_state['uploaded_file'] == None:
-        validationbuttonlist.append('Fail')
-    
-    if st.session_state['uploaded_files'] == []:
-        validationbuttonlist.append('Fail')
+    if st.session_state['uploaded_file'] != None and st.session_state['uploaded_files'] != []:
+            if st.session_state['output_name'] !='':
+                os.mkdir('temporary')
+                for n in st.session_state['uploaded_files']:
+                    with open(os.path.join('temporary',n.name),"wb") as g:
+                         g.write(n.getbuffer())
+                         g.close()
+                st.session_state['uploaded_files']=[]        
+                nextPage()
+    else:
+        st.session_state['previouserror']=True
         
-    if 'Fail' in validationbuttonlist:
-        st.session_state['fileerrortoggle']=True
-            
-        
-    else:    
-        os.mkdir('temporary')
-        for n in st.session_state['uploaded_files']:
-            with open(os.path.join('temporary',n.name),"wb") as g:
-                 g.write(n.getbuffer())
-                 g.close()
-        st.session_state['uploaded_files']=[]        
-        nextPage()
-        
-
 #This is a copy of the validation functions
 
 
-#from urllib.error import URLError
-
 def dataframeviewer():
-
-    st.write("Validate Your Files")
 
     st.markdown(f"# Double-check your data")
     st.markdown(f"Please ensure that dc.subject tags are separated by double pipe (||).")    
@@ -456,6 +439,9 @@ def metadatavalidation():
 
 
 def compiler():
+    
+    st.markdown(f"# Download your SAF archive.")
+    
     if st.session_state['Compiled'] == False:
     
         with st.expander("Compilation details"):       
@@ -527,14 +513,14 @@ if 'page' not in st.session_state: st.session_state['page'] = 0
 def nextPage(): st.session_state['page'] = st.session_state['page'] + 1
 def firstPage(): 
     st.session_state['page'] = 0
-    st.session_state['fileerrortoggle']=False
     st.session_state['validationbuttontoggle'] = 'validation'
+    st.session_state['previouserror']=False
 def secondPage(): st.session_state['page'] = 1
     
-if 'fileerrortoggle' not in st.session_state: st.session_state['fileerrortoggle'] = False
 if 'Compiled' not in st.session_state: st.session_state['Compiled'] = False    
 if 'validationbuttontoggle' not in st.session_state: st.session_state['validationbuttontoggle'] = 'validation'
-
+if 'previouserror' not in st.session_state: st.session_state['previouserror']=False
+    
 def reset():
     st.button("Reset",on_click=firstPage)
 
@@ -561,6 +547,8 @@ def empty():
 if st.session_state['page'] == 0:
     with mainbody.container():
         upload()
+    with errors.container():
+        uploaderrors()
     with activebutton.container():
         st.button("Upload",on_click=validationbutton)   
     
