@@ -24,7 +24,7 @@ The Demo version is a simplified version of the program to make running the prog
 
 
 
-## How to run BuffSAF
+## How to run BuffSAF-Demo
 
 ### HTML version - UNSTABLE
 
