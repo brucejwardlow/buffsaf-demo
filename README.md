@@ -54,7 +54,7 @@ To run this version:
 3. Install a python environment. (I recommend [Anaconda](https://www.anaconda.com/))
 4. Open python prompt.
 5. Navigate to the folder containing the .py file.    
->**Warning: This version of the script will delete any folder titled "temporary" in the same location as the .py file. Putting the file in its own folder is recommended.**
+>Warning: This version of the script will delete any folder titled "temporary" in the same location as the .py file. Putting the file in its own folder is recommended.
 6. Install pandas using the following prompt:  
     `pip install pandas`
 7. Install streamlit using the following prompt:      
@@ -63,4 +63,4 @@ To run this version:
     `streamlit run buffsaf-demo.py`
 9. See [additional documentation]() for instructions on how to use the program.
 
-**Note: Similar to Juyter Notebook, Streamlit (and this script) creates a local webserver to simplify the UI. None of your data is actually uploaded anywhere when using this script. Close the python prompt to shut the server down.**  
+>Note: Similar to Juyter Notebook, Streamlit (and this script) creates a local webserver to simplify the UI. None of your data is actually uploaded anywhere when using this script. Close the python prompt to shut the server down. 
