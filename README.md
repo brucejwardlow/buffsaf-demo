@@ -20,7 +20,8 @@ The Demo version is a simplified version of the program to make running the prog
 - mother-and-child.jpeg
     - One of the example images for the example metadata.csv.
 
-
+term
+: definition
 
 ## How to run BuffSAF
 
