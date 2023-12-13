@@ -2,6 +2,8 @@
 
 BuffSAF is a python-based Simple Archive Format compiler meant to create bulk upload files for a D-Space Repository.
 
+The Demo version is a simplified version of the program to make running the program easier for a novice. 
+
 ## Contents of this repository
 - LICENSE
 - README.md
@@ -26,11 +28,11 @@ To run this version:
 
 1. Click on BuffSAF-Demo.html
 2. Click on the download icon in the top right corner.
-3. Double click the file to open the 
+3. Double click the .html file to run the program.
+4. See additional documentation for instructions on how to use the program.
 
-
-###
-
+### Python Version - Simplified Version
+ 
 install anaconda 3
 
 open anaconda prompt
