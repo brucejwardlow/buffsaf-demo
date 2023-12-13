@@ -19,7 +19,7 @@ st.set_page_config(
 
 #This part drives the text at the top
 
-st.write("# Welcome to BuffSAF Demo :bison:")
+st.write("# Welcome to BuffSAF Demo :construction:")
 
 st.markdown(
     """
