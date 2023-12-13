@@ -6,13 +6,19 @@ The Demo version is a simplified version of the program to make running the prog
 
 ## Contents of this repository
 - LICENSE
+    -
 - README.md
+    -
 - buffalo-grazing-in-meadow.jpeg
+    -
 - buffsaf-demo.html
+    -
 - buffsaf-demo.py
+    -
 - metadata.csv
+    -
 - mother-and-child.jpeg
-
+    -
 
 
 
