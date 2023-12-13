@@ -361,9 +361,6 @@ def upload():
             st.error('Please select the metadata csv and all files to continue.')
 
 def validationbutton():
-
-    errors.empty()
-    sleep(0.01)
     
     validationbuttonlist=[]
 
