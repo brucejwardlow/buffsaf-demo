@@ -38,8 +38,14 @@ To run this version:
 4. See additional documentation for instructions on how to use the program.
 
 ### Python Version - Simplified Version
+
+This is the fully functional, stable version currently in production use at West Texas A&M University. 
+
+There is a version with more features available at [BuffSAF](https://github.com/brucejwardlow/BuffSAF), however that version is still in development and has a much more complex installation process and less documentation. 
  
-install anaconda 3
+To run this version: 
+
+1. Install a python environment. (I recommend [Anaconda](https://www.anaconda.com/))
 
 open anaconda prompt
 
