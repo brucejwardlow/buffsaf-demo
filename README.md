@@ -29,8 +29,9 @@ The Demo version is a simplified version of the program to make running the prog
 ### HTML version - UNSTABLE
 
 The HTML version of BuffSAF Demo is intended for use in justifications of getting a Python environment installed. With care, I've gotten it stable up to batches of 375 mb. 
+>Warning: Please ensure you only click on the "Compile" button once, as it will hang with no visibile indication that it is processing the file in the html version.
 
-This verion uses [pyodide](https://github.com/pyodide/pyodide) and [stlite](https://github.com/whitphx/stlite) to run fully in a client-side browser. 
+This version uses [pyodide](https://github.com/pyodide/pyodide) and [stlite](https://github.com/whitphx/stlite) to run fully in a client-side browser. 
 
 To run this version: 
 
