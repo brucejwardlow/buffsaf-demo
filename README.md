@@ -5,23 +5,22 @@ BuffSAF is a python-based Simple Archive Format compiler meant to create bulk up
 The Demo version is a simplified version of the program to make running the program easier for a novice. 
 
 ## Contents of this repository
-- LICENSE
-    - MIT License information
-- README.md
-    - The README that you are currently reading.
-- buffalo-grazing-in-meadow.jpeg
-    - One of the example images for the example metadata.csv.
-- buffsaf-demo.html
-    - This is the one file needed to run the unstable version without a python environment. 
-- buffsaf-demo.py
-    - This is the one file needed to  run this program in a python environment.
-- metadata.csv
-    - The example metadata.csv.
-- mother-and-child.jpeg
-    - One of the example images for the example metadata.csv.
+- [LICENSE](https://github.com/brucejwardlow/buffsaf-demo/blob/main/LICENSE)
+: MIT License information
+- [README.md](https://github.com/brucejwardlow/buffsaf-demo/blob/main/README.md)
+: The README that you are currently reading.
+- [buffalo-grazing-in-meadow.jpeg](https://github.com/brucejwardlow/buffsaf-demo/blob/main/buffalo-grazing-in-meadow.jpeg)
+: One of the example images for the example metadata.csv.
+- [buffsaf-demo.html](https://github.com/brucejwardlow/buffsaf-demo/blob/main/buffsaf-demo.html)
+: This is the one file needed to run the unstable version without a python environment. 
+- [buffsaf-demo.py](https://github.com/brucejwardlow/buffsaf-demo/blob/main/buffsaf-demo.py)
+: This is the one file needed to  run this program in a python environment.
+- [metadata.csv](https://github.com/brucejwardlow/buffsaf-demo/blob/main/metadata.csv)
+: The example metadata.csv.
+- [mother-and-child.jpeg](https://github.com/brucejwardlow/buffsaf-demo/blob/main/mother-and-child.jpeg)
+: One of the example images for the example metadata.csv.
 
-term
-: definition
+
 
 ## How to run BuffSAF
 
