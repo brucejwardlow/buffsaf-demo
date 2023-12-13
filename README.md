@@ -49,10 +49,12 @@ To run this version:
 
 1. Install a python environment. (I recommend [Anaconda](https://www.anaconda.com/))
 2. Open python prompt.
-3. Install pandas:  
+3. Install pandas using the following prompt:  
     `pip install pandas`
-4. Install streamlit:      
+4. Install streamlit using the following prompt:      
     `pip install streamlit` 
-5. Run the script:  
+5. Run the script using the following prompt:  
     `streamlit run buffsaf-demo.py`
 6. See [additional documentation]() for instructions on how to use the program.
+
+Note: Similar to Juyter Notebook, Streamlit (and this script) creates a local webserver to simplify the UI. None of your data is actually uploaded anywhere when using this script. Close the python prompt to shut the server down.  
