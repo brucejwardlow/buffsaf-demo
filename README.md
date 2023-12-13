@@ -48,11 +48,11 @@ There is a version with more features available at [BuffSAF](https://github.com/
 To run this version: 
 
 1. Install a python environment. (I recommend [Anaconda](https://www.anaconda.com/))
-2. Open anaconda prompt.
-3. Install pandas:
+2. Open python prompt.
+3. Install pandas:  
     `pip install pandas`
-4. Install streamlit:    
+4. Install streamlit:      
     `pip install streamlit` 
-5. Run the script:
+5. Run the script:  
     `streamlit run buffsaf-demo.py`
 6. See [additional documentation]() for instructions on how to use the program.
