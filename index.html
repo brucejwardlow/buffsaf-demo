@@ -33,27 +33,28 @@ from xml.dom import minidom
 
 #This section is page metadata
 
+
 st.set_page_config(
-    page_title="BuffSAF Lite",
+    page_title="BuffSAF Demo",
 )
 
 #This part drives the text at the top
 
-st.write("# Welcome to BuffSAF Lite :bison:")
+st.write("# Welcome to BuffSAF Demo :bison:")
 
 st.markdown(
-      """
+    """
     BuffSAF is a python-based Simple Archive Format compiler meant to create bulk upload files for a D-Space Repository.
+    
+    This a demonstration version that works at small scale, but is unstable at full production loads. 
         
-    Click on the Next button to start the process.
-        
-    ### Want to learn more?  
+    ### Want to learn more?
 
-    - Read the documentation: [Documentation](https://github.com/brucejwardlow/BuffSAF/blob/main/README.md)
-    - Download a Template CSV: [Example CSV](https://github.com/brucejwardlow/buffsaf-lite/blob/main/metadata.csv)
+    - Read the documentation: [Documentation](https://github.com/brucejwardlow/buffsaf-demo/blob/main/README.md)
+    - Download a Template CSV: [Example CSV](https://github.com/brucejwardlow/buffsaf-demo/blob/main/metadata.csv)
     - Download the example files:     
-        - [Mother and Child](https://github.com/brucejwardlow/buffsaf-lite/blob/main/mother-and-child.jpeg)  
-        - [Buffalo Grazing in Meadow](https://github.com/brucejwardlow/buffsaf-lite/blob/main/buffalo-grazing-in-meadow.jpeg)
+        - [Mother and Child](https://github.com/brucejwardlow/buffsaf-demo/blob/main/mother-and-child.jpeg)  
+        - [Buffalo Grazing in Meadow](https://github.com/brucejwardlow/buffsaf-demo/blob/main/buffalo-grazing-in-meadow.jpeg)
 
     """
 )
@@ -397,6 +398,7 @@ def validationbutton():
             with open(os.path.join('temporary',n.name),"wb") as g:
                  g.write(n.getbuffer())
                  g.close()
+        st.session_state['uploaded_files']=[]        
         nextPage()
         
 
@@ -471,7 +473,7 @@ def metadatavalidation():
 def compiler():
     if st.session_state['Compiled'] == False:
     
-        with st.expander("Compiling SAF archive..."):       
+        with st.expander("Compilation details"):       
 
 
                 #Iterate through the metada csv
@@ -589,6 +591,7 @@ if st.session_state['page'] == 2:
     with mainbody.container():
             compiler()
             
+
 
 
 
