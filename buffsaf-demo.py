@@ -350,7 +350,10 @@ def upload():
 
     outputname = st.text_input('(3) What name do you want the output to use?', 'Output') 
     st.session_state['output_name'] = outputname
-    st.write('Your output name will be', st.session_state['output_name'],'.zip')
+    if outputname== '':
+        st.error('The output name is currently undefined. This will break the program')
+    else:    
+        st.write('Your output name will be', st.session_state['output_name'],'.zip')
     
     if st.session_state['fileerrortoggle']==True:
         st.error('Please select the metadata csv and all files to continue.')
