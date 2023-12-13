@@ -34,7 +34,7 @@ This verion uses [pyodide](https://github.com/pyodide/pyodide) and [stlite](http
 
 To run this version: 
 
-1. Click on BuffSAF-Demo.html
+1. Click on [BuffSAF-Demo.html](https://github.com/brucejwardlow/buffsaf-demo/blob/main/buffsaf-demo.html)
 2. Click on the download icon in the top right corner.
 3. Double click the .html file to run the program.
 4. See [additional documentation]() for instructions on how to use the program.
@@ -44,17 +44,23 @@ To run this version:
 This is the fully functional, stable version currently in production use at West Texas A&M University. 
 
 There is a version with more features available at [BuffSAF](https://github.com/brucejwardlow/BuffSAF), however that version is still in development and has a much more complex installation process and less documentation. 
+
+
  
 To run this version: 
 
-1. Install a python environment. (I recommend [Anaconda](https://www.anaconda.com/))
-2. Open python prompt.
-3. Install pandas using the following prompt:  
+1. Click on [BuffSAF-Demo.py](https://github.com/brucejwardlow/buffsaf-demo/blob/main/buffsaf-demo.py)
+2. Click on the download icon in the top right corner.
+3. Install a python environment. (I recommend [Anaconda](https://www.anaconda.com/))
+4. Open python prompt.
+5. Navigate to the folder containing the .py file.
+**Warning: This version of the script will delete any folder titled "temporary" in the same location as the .py file. Putting the file in its own folder is recommended.**
+6. Install pandas using the following prompt:  
     `pip install pandas`
-4. Install streamlit using the following prompt:      
+7. Install streamlit using the following prompt:      
     `pip install streamlit` 
-5. Run the script using the following prompt:  
+8. Run the script using the following prompt:  
     `streamlit run buffsaf-demo.py`
-6. See [additional documentation]() for instructions on how to use the program.
+9. See [additional documentation]() for instructions on how to use the program.
 
 **Note: Similar to Juyter Notebook, Streamlit (and this script) creates a local webserver to simplify the UI. None of your data is actually uploaded anywhere when using this script. Close the python prompt to shut the server down.**  
