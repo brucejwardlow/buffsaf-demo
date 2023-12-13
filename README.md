@@ -2,8 +2,7 @@ install anaconda 3
 
 open anaconda prompt
 
-pip install pandas
-pip install streamlit
-pip install minidom ? maybe? 
+`pip install pandas` 
+`pip install streamlit` 
 
-streamlit run buffsaf-demo.py
+`streamlit run buffsaf-demo.py`
