@@ -24,8 +24,6 @@ st.write("# Welcome to BuffSAF Demo :construction:")
 st.markdown(
     """
     BuffSAF is a python-based Simple Archive Format compiler meant to create bulk upload files for a D-Space Repository.
-    
-    This a demonstration version that works at small scale, but is unstable at full production loads. 
         
     ### Want to learn more?
 
