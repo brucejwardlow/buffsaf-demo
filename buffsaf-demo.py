@@ -350,7 +350,7 @@ def upload():
 
     outputname = st.text_input('(3) What name do you want the output to use?', 'Output') 
     st.session_state['output_name'] = outputname
-    if outputname== '':
+    if st.session_state['output_name']== '':
         with errors.container():
             st.error('The output name is currently undefined. This will break the program')
     else:    
@@ -367,7 +367,7 @@ def validationbutton():
     
     validationbuttonlist=[]
 
-    if st.session_state['outputname'] =='':
+    if st.session_state['output_name'] =='':
         validationbuttonlist.append('Fail') 
     
     if st.session_state['uploaded_file'] == None:
