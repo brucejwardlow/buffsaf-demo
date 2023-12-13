@@ -351,18 +351,24 @@ def upload():
     outputname = st.text_input('(3) What name do you want the output to use?', 'Output') 
     st.session_state['output_name'] = outputname
     if outputname== '':
-        st.error('The output name is currently undefined. This will break the program')
+        with errors.container():
+            st.error('The output name is currently undefined. This will break the program')
     else:    
         st.write('Your output name will be', st.session_state['output_name'],'.zip')
     
     if st.session_state['fileerrortoggle']==True:
-        st.error('Please select the metadata csv and all files to continue.')
+        with errors.container():
+            st.error('Please select the metadata csv and all files to continue.')
 
 def validationbutton():
-    
+
+    errors.empty()
+    sleep(0.01)
     
     validationbuttonlist=[]
-    
+
+    if st.session_state['outputname'] =='':
+        validationbuttonlist.append('Fail') 
     
     if st.session_state['uploaded_file'] == None:
         validationbuttonlist.append('Fail')
