@@ -3,7 +3,13 @@
 BuffSAF is a python-based Simple Archive Format compiler meant to create bulk upload files for a D-Space Repository.
 
 ## Contents of this repository
-
+- LICENSE
+- README.md
+- buffalo-grazing-in-meadow.jpeg
+- buffsaf-demo.html
+- buffsaf-demo.py
+- metadata.csv
+- mother-and-child.jpeg
 
 
 
