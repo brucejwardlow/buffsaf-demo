@@ -39,7 +39,7 @@ To run this version:
 3. Double click the .html file to run the program.
 4. See [additional documentation]() for instructions on how to use the program.
 
-### Python Version - Simplified Version
+### Python Version
 
 This is the fully functional, stable version currently in production use at West Texas A&M University. 
 
