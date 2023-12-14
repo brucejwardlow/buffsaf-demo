@@ -74,10 +74,10 @@ To run this version:
 
 1. Click on [BuffSAF-Demo.py](https://github.com/brucejwardlow/buffsaf-demo/blob/main/buffsaf-demo.py)
 2. Click on the download icon in the top right corner.
+>Warning: This version of the script will delete any folder titled "temporary" in the same location as the .py file. Putting the file in its own folder is recommended.
 3. Install a python environment. (I recommend [Anaconda](https://www.anaconda.com/))
 4. Open python prompt.
 5. Navigate to the folder containing the .py file.    
->Warning: This version of the script will delete any folder titled "temporary" in the same location as the .py file. Putting the file in its own folder is recommended.
 6. Install pandas using the following prompt:  
     `pip install pandas`
 7. Install streamlit using the following prompt:      
