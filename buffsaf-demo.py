@@ -303,7 +303,7 @@ def run(row):
         save_path_file = (os.path.join('temporary', row['dc.title'], "dublin_core.xml"))
         with open(save_path_file, "w") as f:
             f.write(xml_str)
-
+            f.close()
 
 #This is a copy of the import functions
 
