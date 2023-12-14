@@ -2,7 +2,7 @@
 
 [BuffSAF](https://github.com/brucejwardlow/BuffSAF) is a python-based Simple Archive Format compiler meant to create bulk upload files for a D-Space Repository.
 
-The Demo version is a simplified version of the program to make running the program easier for a novice. 
+The Demo version is a simplified version of the script to make running the script easier for a novice. 
 
 ## Contents of this repository
 - [LICENSE](https://github.com/brucejwardlow/buffsaf-demo/blob/main/LICENSE)
@@ -22,7 +22,29 @@ The Demo version is a simplified version of the program to make running the prog
 - [mother-and-child.jpeg](https://github.com/brucejwardlow/buffsaf-demo/blob/main/mother-and-child.jpeg)
 : One of the example images for the example metadata.csv.
 
+## Supported metadata
+This script currently only supports the following metadata csv headers:
 
+- file.name
+: This is the name of the file.
+- file.description
+: This is a description of the file, found in the "Bundle" section of D-space. 
+- dc.title
+: This is the Dublin Core tag for the title.
+- dc.type
+: This is the Dublin Core tag for document type. 
+- dc.publisher
+: This is te Dublin Core tag for publisher.
+- dc.language.iso
+: This is the Dublin Core tag for the ISO language.
+- dc.description.abstract
+: This is the Dublin Core tag for the item description.
+- dc.date.issued
+: This is the Dublin Core tag for the date issued, and must be in YYYY-MM-DD format. 
+- dc.subject
+: This is the Dublin Core tag for the subject.
+
+> dc.subject currently allows you to input multiple tags, each separated by double pipe (||).
 
 ## How to run BuffSAF-Demo
 
