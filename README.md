@@ -44,14 +44,14 @@ This script currently only supports the following metadata csv headers:
 - dc.subject
 : This is the Dublin Core tag for the subject.
 
->Note: dc.subject currently allows you to input multiple tags, each separated by double pipe (||).
+> :tip: Tip: dc.subject currently allows you to input multiple tags, each separated by double pipe (||).
 
 ## How to run BuffSAF-Demo
 
 ### HTML version - UNSTABLE
 
 The HTML version of BuffSAF Demo is intended for use in justifications of getting a Python environment installed. With care, I've gotten it stable up to batches of 375 mb. 
->Warning: Please ensure you only click on the "Compile" button once, as it will hang with no visibile indication that it is processing the file in the html version.
+> :warning: Warning: Please ensure you only click on the "Compile" button once, as it will hang with no visibile indication that it is processing the file in the html version.
 
 This version uses [pyodide](https://github.com/pyodide/pyodide) and [stlite](https://github.com/whitphx/stlite) to run fully in a client-side browser. 
 
@@ -74,7 +74,7 @@ To run this version:
 
 1. Click on [BuffSAF-Demo.py](https://github.com/brucejwardlow/buffsaf-demo/blob/main/buffsaf-demo.py)
 2. Click on the download icon in the top right corner.
->Warning: This version of the script will delete any folder titled "temporary" in the same location as the .py file. Putting the file in its own folder is recommended.
+> :warning: Warning: This version of the script will delete any folder titled "temporary" in the same location as the .py file. Putting the file in its own folder is recommended.
 3. Install a python environment. (I recommend [Anaconda](https://www.anaconda.com/))
 4. Open python prompt.    
 5. Install pandas using the following prompt:  
@@ -86,5 +86,5 @@ To run this version:
     `streamlit run buffsaf-demo.py`
 9. See [additional documentation]() for instructions on how to use the program.
 
->Note: Similar to Jupyter Notebook, Streamlit (and this script) creates a local webserver to simplify the UI. None of your data is actually uploaded anywhere when using this script. Close the python prompt to shut the server down. 
+> :memo: Note: Similar to Jupyter Notebook, Streamlit (and this script) creates a local webserver to simplify the UI. None of your data is actually uploaded anywhere when using this script. Close the python prompt to shut the server down. 
 
