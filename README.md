@@ -44,7 +44,7 @@ This script currently only supports the following metadata csv headers:
 - dc.subject
 : This is the Dublin Core tag for the subject.
 
-> :tip: Tip: dc.subject currently allows you to input multiple tags, each separated by double pipe (||).
+> :bulb: Tip: dc.subject currently allows you to input multiple tags, each separated by double pipe (||).
 
 ## How to run BuffSAF-Demo
 
