@@ -86,5 +86,5 @@ To run this version:
     `streamlit run buffsaf-demo.py`
 9. See [additional documentation]() for instructions on how to use the program.
 
-> :memo: Note: Similar to Jupyter Notebook, Streamlit (and this script) creates a local webserver to simplify the UI. None of your data is actually uploaded anywhere when using this script. Close the python prompt to shut the server down. 
+> :memo: Note: Similar to Jupyter Notebook, Streamlit (and this script) creates a local webserver to simplify the UI. None of your data is actually uploaded to the internet when using this script. Close the python prompt to shut the server down. 
 
