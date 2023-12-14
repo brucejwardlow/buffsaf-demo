@@ -88,5 +88,3 @@ To run this version:
 
 >Note: Similar to Jupyter Notebook, Streamlit (and this script) creates a local webserver to simplify the UI. None of your data is actually uploaded anywhere when using this script. Close the python prompt to shut the server down. 
 
-
-{% octicon download height:16 %}
