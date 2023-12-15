@@ -15,8 +15,8 @@ The Demo version is a simplified version of the script to make running the scrip
 : This is the one file needed to run the unstable version without a python environment. 
 - [buffsaf-demo.py](https://github.com/brucejwardlow/buffsaf-demo/blob/main/buffsaf-demo.py)
 : This is the one file needed to  run this program in a python environment.
-- :construction: ~~[Manual]()~~ :construction:
-: This is the additional documentation on how to install and use the script.
+- :construction: ~~[Manual]()
+: This is the additional documentation on how to install and use the script.~~ :construction:
 - [metadata.csv](https://github.com/brucejwardlow/buffsaf-demo/blob/main/metadata.csv)
 : The example metadata.csv.
 - [mother-and-child.jpeg](https://github.com/brucejwardlow/buffsaf-demo/blob/main/mother-and-child.jpeg)
