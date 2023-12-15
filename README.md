@@ -60,7 +60,7 @@ To run this version:
 1. Click on [BuffSAF-Demo.html](https://github.com/brucejwardlow/buffsaf-demo/blob/main/buffsaf-demo.html)
 2. Click on the download icon in the top right corner.
 3. Double click the .html file to run the program.
-4. See [additional documentation]():construction:  for instructions on how to use the program.
+4. See :construction: ~~[additional documentation]()~~ for instructions on how to use the program.
 
 ### Python Version
 
@@ -84,7 +84,7 @@ To run this version:
 7. Navigate to the folder containing the .py file.   
 8. Run the script using the following prompt:  
         `streamlit run buffsaf-demo.py`
-9. See [additional documentation]():construction: for instructions on how to use the program.
+9. See :construction:~~[additional documentation]()~~ for instructions on how to use the program.
 
 > :memo: Note: Similar to Jupyter Notebook, Streamlit (and this script) creates a local webserver to simplify the UI. None of your data is actually uploaded to the internet when using this script. Close the python prompt to shut the server down. 
 
