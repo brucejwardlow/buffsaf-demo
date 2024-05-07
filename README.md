@@ -1,6 +1,6 @@
 # Welcome to BuffSAF-Demo
 
-:construction:[BuffSAF](https://github.com/brucejwardlow/BuffSAF):construction: is a python-based Simple Archive Format compiler meant to create bulk upload files for a D-Space Repository.
+:construction:~~[BuffSAF](https://github.com/brucejwardlow/BuffSAF)~~:construction: is a python-based Simple Archive Format compiler meant to create bulk upload files for a D-Space Repository.
 
 The Demo version is a simplified version of the script to make running the script easier for a novice. 
 
